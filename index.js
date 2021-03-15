@@ -231,7 +231,7 @@ express()
       res.send("Error " + err);
     }
   })
-  .get('/yourname', (req, res) => res.render('pages/yourname'))
+  .get('/mike', (req, res) => res.render('pages/mike'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 
